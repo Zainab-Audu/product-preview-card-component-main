@@ -83,3 +83,22 @@ h3 {
 .product-button:hover {
   background-color: #4ac366;
 }
+
+@media (min-width: 380px) {
+  .product-card {
+    max-width: 600px;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product-card {
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-card {
+    max-width: 600px;
+  }
+}
